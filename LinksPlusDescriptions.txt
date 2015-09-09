@@ -1,2 +1,9 @@
 1. Describes steps for loading a web page.
    https://developer.chrome.com/devtools/docs/network#resource-network-timing
+
+2. Good documentation for angularJS.
+   https://docs.angularjs.org/guide/introduction
+
+3. Learn git fast.
+   Jlord.github.io/git-it
+
