@@ -39,3 +39,6 @@
   
    Delete a local branch:
    > git branch -d <localBranch>
+
+10.File delete.
+   > git rm file1.txt
