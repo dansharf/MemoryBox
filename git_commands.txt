@@ -14,31 +14,34 @@
 3. Create a new branch on the remote from your new local branch.
    > git push origin oven_temp_auth
 
-4. Clone a specific branch from git
-   > git clone -b my-branch git@github.com:user/myproject.git
-
-5. Rename branch
+4. Rename branch
    > git branch -m <oldname> <newname>
    Rename current branch
    > git branch -m <newname>
 
-6. Update to the newest version.
+5. Update to the newest version.
    In the simplest terms, git pull does a git fetch followed by a git merge.
    > git checkout <you_branch>
    > git pull
 
-7. Clone a branch from git
+6. Clone a branch from git
    > git clone -b <branch> <remote_repo>
 
-8. How to push branch commits.
+7. How to push branch commits.
    > git checkout <feature_x>
    > git push origin <feature_x>
 
-9. Delete a remote branch from git:
+8. Delete a remote branch from git:
    > git push origin --delete <branchName>
   
    Delete a local branch:
-   > git branch -d <localBranch>
+   > git branch -D <localBranch>
 
-10.File delete.
+9.File delete.
    > git rm file1.txt
+
+10.Copying several branches:
+     After you did git clone ... you have only master branch copied. 
+   > git branch -a
+   > git checkout -b <yourBranch> origin/<yourBranch>
+     http://stackoverflow.com/questions/67699/clone-all-remote-branches-with-git
