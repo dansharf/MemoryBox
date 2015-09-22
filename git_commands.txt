@@ -38,7 +38,10 @@
    > git branch -D <localBranch>
 
 9.File delete.
+   From repo and local
    > git rm file1.txt
+   From repo only
+   > git rm --cached file1.txt
 
 10.Copying several branches:
      After you did git clone ... you have only master branch copied. 
