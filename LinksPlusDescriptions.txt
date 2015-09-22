@@ -7,3 +7,6 @@
 3. Learn git fast.
    Jlord.github.io/git-it
 
+4. Design Patterns.
+   http://www.tutorialspoint.com/design_pattern/mvc_pattern.htm
+
